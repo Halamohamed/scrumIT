@@ -18,12 +18,12 @@
         <java.version>1.8</java.version>
         <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
     </properties>
-    <!--<modules>
-        <module> ../../../../Intellij IDEA workspace/scrum/DB-management/DB-management</module>
-        <module>../../../../Intellij IDEA workspace/scrum/Eureka-Server/Eureka-Server</module>
-        <module>../../../../Intellij IDEA workspace/scrum/web-mvc/web-mvc</module>
+    <modules>
+        <module> Eureka-Server</module>
+        <module>DB-management</module>
+        <module>web-mvc</module>
     </modules>
--->
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>

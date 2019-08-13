@@ -34,16 +34,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>de.flapdoodle.embed</groupId>
-			<artifactId>de.flapdoodle.embed.mongo</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.tomcat.embed</groupId>
-			<artifactId>tomcat-embed-jasper</artifactId>
-			<scope>compile</scope>
-		</dependency>
 		<!-- mongodb -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -55,8 +45,42 @@
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
+		<dependency>
 
-	</dependencies>
+			<groupId>com.sun.xml.bind</groupId>
+
+			<artifactId>jaxb-core</artifactId>
+
+			<version>2.3.0.1</version>
+
+		</dependency>
+
+		<dependency>
+
+			<groupId>javax.xml.bind</groupId>
+
+			<artifactId>jaxb-api</artifactId>
+
+			<version>2.3.1</version>
+
+		</dependency>
+
+		<dependency>
+
+			<groupId>com.sun.xml.bind</groupId>
+
+			<artifactId>jaxb-impl</artifactId>
+
+			<version>2.3.1</version>
+
+		</dependency>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-core</artifactId>
+            <version>5.1.4.RELEASE</version>
+        </dependency>
+
+    </dependencies>
 
 	<dependencyManagement>
 		<dependencies>
@@ -67,16 +91,7 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
-			<dependency>
-				<groupId>javax.xml.bind</groupId>
-				<artifactId>jaxb-api</artifactId>
-				<version>2.3.1</version>
-			</dependency>
-			<dependency>
-				<groupId>org.glassfish.jaxb</groupId>
-				<artifactId>jaxb-runtime</artifactId>
-				<version>2.3.2</version>
-			</dependency>
+
 		</dependencies>
 	</dependencyManagement>
 

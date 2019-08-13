@@ -27,7 +27,7 @@ public class SubTask {
     @Min(value = 0)
     @Positive
     private Integer OEstimate; //planned hours
-    private List<Integer> actualHours;
+    //private List<Integer> actualHours;
     private List<User> users;
     private Map<String, List<Integer>> userActualHours;
 
